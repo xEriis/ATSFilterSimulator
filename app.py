@@ -20,7 +20,6 @@ st.set_page_config(
 # CSS personalizado
 st.markdown("""
 <style>
-    /* === Hero header con gradiente === */
     .hero-card {
         background: linear-gradient(135deg, #667eea 0%, #764ba2 45%, #ec4899 100%);
         padding: 32px 28px;
@@ -44,7 +43,6 @@ st.markdown("""
         font-weight: 400;
     }
 
-    /* === Chips de keywords (más saturados, con gradiente) === */
     .keyword-chip {
         display: inline-block;
         padding: 6px 14px;
@@ -53,21 +51,16 @@ st.markdown("""
         font-size: 13px;
         font-weight: 600;
         color: white;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     }
-    .chip-found {
-        background: linear-gradient(135deg, #10b981, #059669);
-    }
-    .chip-missing {
-        background: linear-gradient(135deg, #fb7185, #be123c);
-    }
+    .chip-found    { background: linear-gradient(135deg, #10b981, #059669); }
+    .chip-missing  { background: linear-gradient(135deg, #fb7185, #be123c); }
     .chip-critical {
         background: linear-gradient(135deg, #f59e0b, #d97706);
         font-weight: 700;
-        box-shadow: 0 2px 8px rgba(245, 158, 11, 0.35);
+        box-shadow: 0 2px 8px rgba(245, 158, 11, 0.45);
     }
 
-    /* === Level badges con gradientes === */
     .level-badge {
         display: inline-block;
         padding: 5px 14px;
@@ -77,29 +70,26 @@ st.markdown("""
         text-transform: uppercase;
         letter-spacing: 0.6px;
         color: white;
-        box-shadow: 0 2px 6px rgba(0,0,0,0.12);
+        box-shadow: 0 2px 6px rgba(0,0,0,0.15);
     }
     .level-junior    { background: linear-gradient(135deg, #3b82f6, #1d4ed8); }
     .level-mid       { background: linear-gradient(135deg, #14b8a6, #0d9488); }
     .level-senior    { background: linear-gradient(135deg, #8b5cf6, #6d28d9); }
     .level-executive { background: linear-gradient(135deg, #ec4899, #be185d); }
 
-    /* === Job cards con tinte morado suave === */
     .job-card {
         padding: 18px;
         border-radius: 12px;
-        background: linear-gradient(135deg, #fdf4ff 0%, #f5f3ff 100%);
+        background: linear-gradient(135deg, rgba(139, 92, 246, 0.10) 0%, rgba(236, 72, 153, 0.06) 100%);
         border-left: 5px solid #8b5cf6;
         margin-bottom: 12px;
         box-shadow: 0 4px 12px rgba(139, 92, 246, 0.08);
     }
 
-    /* === Mejorar tipografía de H2/H3 con gradiente sutil === */
     h2, h3 {
-        color: #6d28d9 !important;
+        color: #a78bfa !important;
     }
 
-    /* === Botones con gradiente === */
     .stButton button, .stDownloadButton button {
         background: linear-gradient(135deg, #7c3aed, #ec4899) !important;
         color: white !important;
@@ -107,43 +97,34 @@ st.markdown("""
         font-weight: 600 !important;
         border-radius: 10px !important;
         padding: 8px 20px !important;
-        box-shadow: 0 4px 12px rgba(124, 58, 237, 0.25) !important;
+        box-shadow: 0 4px 12px rgba(124, 58, 237, 0.35) !important;
     }
     .stButton button:hover, .stDownloadButton button:hover {
         transform: translateY(-1px);
-        box-shadow: 0 6px 16px rgba(124, 58, 237, 0.35) !important;
+        box-shadow: 0 6px 16px rgba(124, 58, 237, 0.45) !important;
     }
 
-    /* === Métricas con color de acento === */
     [data-testid="stMetricValue"] {
         font-weight: 800 !important;
-        color: #7c3aed !important;
+        color: #a78bfa !important;
         font-size: 32px !important;
     }
 
-    /* === Alertas con bordes redondeados === */
     .stAlert {
         border-radius: 12px !important;
         border-left-width: 4px !important;
     }
 
-    /* === File uploader con estilo === */
     [data-testid="stFileUploader"] {
-        background: linear-gradient(135deg, #fdf4ff 0%, #ede9fe 100%);
+        background: rgba(139, 92, 246, 0.06);
         border-radius: 12px;
         padding: 8px;
-        border: 2px dashed #c084fc;
+        border: 2px dashed #a78bfa;
     }
 
-    /* === Expander con borde suave === */
     [data-testid="stExpander"] {
         border-radius: 12px !important;
-        border: 1px solid #ede9fe !important;
-    }
-
-    /* === Sidebar con tinte === */
-    [data-testid="stSidebar"] {
-        background: linear-gradient(180deg, #fafaff 0%, #f5f3ff 100%);
+        border: 1px solid rgba(167, 139, 250, 0.25) !important;
     }
 </style>
 """, unsafe_allow_html=True)
