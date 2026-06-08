@@ -543,7 +543,7 @@ def flujo_cv_y_analisis(jd_texto: str, pool: dict, job_info: dict | None):
             st.caption("**Menores (peso ≤ 2):**")
             render_chips(menores, 'missing')
 
-    # ===== SUGERENCIAS =====
+    # Sugerencias en el análisis
     st.markdown("### Sugerencias específicas")
     for icono, titulo, texto in sugerencias:
         with st.container():

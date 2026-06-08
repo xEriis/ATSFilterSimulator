@@ -15,10 +15,7 @@ Cada oferta tiene:
 """
 
 JOBS = [
-
-    # ========================================================================
-    # 1. DATA SCIENTIST en Databricks (EN, senior)
-    # ========================================================================
+    #1. DATA SCIENTIST en Databricks
     {
         'id': 'databricks_ds_senior',
         'title': 'Senior Data Scientist, Generative AI Platform',
@@ -67,10 +64,7 @@ Nice to Have
 - Open source contributions to PyTorch, scikit-learn, or related projects.
 """,
     },
-
-    # ========================================================================
-    # 2. DATA ENGINEER en Amazon Web Services (EN)
-    # ========================================================================
+    # 2. DATA ENGINEER en Amazon Web Services
     {
         'id': 'aws_data_engineer',
         'title': 'Data Engineer II, Data Platform Services',
@@ -119,10 +113,7 @@ Preferred Qualifications
 - AWS certifications (Solutions Architect, Big Data Specialty).
 """,
     },
-
-    # ========================================================================
-    # 3. CLOUD ENGINEER en Google Cloud (EN)
-    # ========================================================================
+    # 3. CLOUD ENGINEER en Google Cloud
     {
         'id': 'gcp_cloud_architect',
         'title': 'Cloud Solutions Architect, Enterprise',
@@ -171,10 +162,7 @@ Preferred Qualifications
 - Track record speaking at industry conferences or contributing to open source.
 """,
     },
-
-    # ========================================================================
-    # 4. SRE/DevOps en Stripe (EN)
-    # ========================================================================
+    # 4. SRE/DevOps en Stripe
     {
         'id': 'stripe_sre_senior',
         'title': 'Senior Site Reliability Engineer, Payments Infrastructure',
@@ -224,10 +212,7 @@ Bonus Points
 - Experience with multi-region high availability and fault tolerance.
 """,
     },
-
-    # ========================================================================
-    # 5. DATA ANALYST en Spotify (EN)
-    # ========================================================================
+    # 5. DATA ANALYST en Spotify
     {
         'id': 'spotify_data_analyst',
         'title': 'Senior Data Analyst, Product & Growth',
@@ -280,10 +265,7 @@ Nice to Have
 - Experience with causal inference techniques and quasi-experimental designs.
 """,
     },
-
-    # ========================================================================
-    # 6. DATA SCIENTIST SENIOR en Mercado Libre (ES)
-    # ========================================================================
+    # 6. DATA SCIENTIST SENIOR en Mercado Libre
     {
         'id': 'meli_data_scientist',
         'title': 'Senior Data Scientist - Fraud & Risk',
@@ -335,10 +317,7 @@ Deseable
 - Conocimiento de regulación financiera en LATAM.
 """,
     },
-
-    # ========================================================================
-    # 7. CHIEF DATA OFFICER / Director en HSBC México (ES)
-    # ========================================================================
+    # 7. CHIEF DATA OFFICER / Director en HSBC México
     {
         'id': 'hsbc_director_governance',
         'title': 'Director de Gobierno de Datos / Chief Data Officer',
@@ -399,10 +378,7 @@ Deseable
 - Publication o speaking en foros de la industria.
 """,
     },
-
-    # ========================================================================
-    # 8. JUNIOR DATA ANALYST en Rappi (ES, entry-level)
-    # ========================================================================
+    # 8. JUNIOR DATA ANALYST en Rappi
     {
         'id': 'rappi_data_analyst_jr',
         'title': 'Data Analyst Junior - Operaciones',
@@ -456,9 +432,7 @@ Deseable
 - Experiencia trabajando con datos de operaciones, marketplaces o e-commerce.
 """,
     },
-    # ========================================================================
-    # 9. SOFTWARE ENGINEERING INTERN en Google (EN)
-    # ========================================================================
+    # 9. SOFTWARE ENGINEERING INTERN en Google
     {
         'id': 'google_swe_intern',
         'title': 'Software Engineering Intern, Cloud Infrastructure',
@@ -504,10 +478,7 @@ Program Highlights
 - Performance-based conversion to full-time SWE role.
 """,
     },
-
-    # ========================================================================
-    # 10. DATA SCIENCE INTERN en Oracle (EN)
-    # ========================================================================
+    # 10. DATA SCIENCE INTERN en Oracle
     {
         'id': 'oracle_ds_intern',
         'title': 'Data Science Intern, Oracle Cloud AI Services',
@@ -557,10 +528,7 @@ Why Oracle?
 - Conversion to full-time Data Scientist role for top performers.
 """,
     },
-
-    # ========================================================================
-    # 11. BECARIO ACTUARIAL en Deloitte México (ES)
-    # ========================================================================
+    # 11. BECARIO ACTUARIAL en Deloitte México
     {
         'id': 'deloitte_actuarial_intern',
         'title': 'Becario Actuarial - Consultoría en Riesgos',
@@ -614,10 +582,7 @@ Lo que ofrecemos
 - Alta posibilidad de incorporación de tiempo completo al egresar.
 """,
     },
-
-    # ========================================================================
-    # 12. CLOUD ENGINEERING INTERN en Microsoft (EN)
-    # ========================================================================
+    # 12. CLOUD ENGINEERING INTERN en Microsoft
     {
         'id': 'microsoft_cloud_intern',
         'title': 'Cloud Engineering Intern, Azure Platform',
@@ -667,10 +632,7 @@ Benefits
 - Conversion path to Software Engineer or Cloud Engineer FTE role.
 """,
     },
-
-    # ========================================================================
-    # 13. BECARIO CUANTITATIVO en Mercer México (ES)
-    # ========================================================================
+    # 13. BECARIO CUANTITATIVO en Mercer México
     {
         'id': 'mercer_quant_intern',
         'title': 'Becario de Análisis Cuantitativo - Beneficios y Pensiones',
@@ -726,10 +688,7 @@ Beneficios
 - Capacitación en metodologías Mercer y herramientas propietarias.
 """,
     },
-
-    # ========================================================================
-    # 14. MACHINE LEARNING ENGINEERING INTERN en Meta (EN)
-    # ========================================================================
+    # 14. MACHINE LEARNING ENGINEERING INTERN en Meta
     {
         'id': 'meta_mle_intern',
         'title': 'Machine Learning Engineering Intern, Ranking & Recommendations',
@@ -786,10 +745,7 @@ Why Meta?
 - Industry-leading compensation for interns.
 """,
     },
-
-    # ========================================================================
-    # 15. BECARIO DE INTELIGENCIA DE NEGOCIOS en Banorte (ES)
-    # ========================================================================
+    # 15. BECARIO DE INTELIGENCIA DE NEGOCIOS en Banorte
     {
         'id': 'banorte_bi_intern',
         'title': 'Becario de Inteligencia de Negocios - Banca Digital',
@@ -849,9 +805,7 @@ Lo que ofrecemos
 - Plan de carrera definido con oportunidad de contratación al egresar.
 """,
     },
-    # ========================================================================
     # 16. DATA ENGINEER (MID-LEVEL) en Grupo Bimbo (ES)
-    # ========================================================================
     {
         'id': 'bimbo_data_engineer_mid',
         'title': 'Data Engineer - Plataforma de Datos Global',
@@ -900,10 +854,7 @@ Deseable
 - Inglés conversacional (B2+).
 """,
     },
-
-    # ========================================================================
     # 17. DEVOPS ENGINEER (MID) en Cloudflare (EN)
-    # ========================================================================
     {
         'id': 'cloudflare_devops_mid',
         'title': 'DevOps Engineer, Edge Infrastructure',
@@ -957,10 +908,7 @@ Benefits
 - Career growth in SRE/platform engineering.
 """,
     },
-
-    # ========================================================================
     # 18. DATA GOVERNANCE ANALYST (MID) en BBVA México (ES)
-    # ========================================================================
     {
         'id': 'bbva_governance_mid',
         'title': 'Especialista en Gobierno de Datos - Banca de Inversión',
@@ -1021,10 +969,7 @@ Lo que ofrecemos
 - Acceso a certificaciones técnicas y de gobierno (DAMA, etc.).
 """,
     },
-
-    # ========================================================================
-    # 19. DATA SCIENTIST II en Snowflake (EN)
-    # ========================================================================
+    # 19. DATA SCIENTIST II en Snowflake
     {
         'id': 'snowflake_ds_mid',
         'title': 'Data Scientist II, Customer Analytics',
@@ -1082,7 +1027,7 @@ Why Snowflake?
 ]
 
 
-# Helpers para uso desde la app
+# Funciones de lectura de puestos del trabajo
 def get_jobs_by_category(category: str) -> list:
     """Devuelve todos los jobs de una categoría."""
     return [j for j in JOBS if j['category'] == category]
